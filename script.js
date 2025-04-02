@@ -1,33 +1,4 @@
 
-// Calculadora com inputs
-var num1 = document.getElementById('num1');
-var num2 = document.getElementById('num2');
-var resultado2 = document.getElementById('resultado2');
-
-var btnSoma = document.getElementById('soma');
-var btnSub = document.getElementById('sub');
-var btnMult = document.getElementById('mult');
-var btnDiv = document.getElementById('div');
-
-btnSoma.addEventListener('click', function() {
-    resultado2.innerText = "Resultado: " + (parseInt(num1.value) + parseFloat(num2.value)); 
-});
-
-btnSub.addEventListener('click', function() {
-    resultado2.innerText = "Resultado: " + (parseInt(num1.value) - parseFloat(num2.value)); 
-});
-
-btnMult.addEventListener('click', function() {
-    resultado2.innerText = "Resultado: " + (parseInt(num1.value) * parseFloat(num2.value)); 
-});
-
-btnDiv.addEventListener('click', function() {
-    resultado2.innerText = "Resultado: " + (parseInt(num1.value) / parseFloat(num2.value)); 
-});
-
-//------------------------------------------------------------------------------------------
-// Calculadora completa
-
 var calculo = document.getElementById('calculo');
 var resultado = document.getElementById('resultado');
 var limpar = document.getElementById('limpar');
@@ -46,39 +17,133 @@ var n3 = document.getElementById('n3');
 var n2 = document.getElementById('n2');
 var n1 = document.getElementById('n1');
 var n0 = document.getElementById('n0');
+var ponto = document.getElementById('ponto');
 
 var numero1 = '';
 var numero2 = '';
 var operacao = null;
 
 //------------------------------------------------------------------------------------------
-// Números
+// Números e a vírgula
 
 n0.addEventListener('click', function() {
     if (operacao == null) {
-
         numero1 = numero1 + n0.textContent;
         calculo.innerText = numero1;
-    
-    } else {
-
+    } 
+    else {
         numero2 = numero2 + n0.textContent;
         calculo.innerText = numero1 + " " + operacao + " " + numero2;
-
     }
 });
 
 n1.addEventListener('click', function() {
     if (operacao == null) {
-
         numero1 = numero1 + n1.textContent;
         calculo.innerText = numero1;
-    
-    } else {
-
+    } 
+    else {
         numero2 = numero2 + n1.textContent;
         calculo.innerText = numero1 + " " + operacao + " " + numero2;
+    }
+});
 
+n2.addEventListener('click', function() {
+    if (operacao == null) {
+        numero1 = numero1 + n2.textContent;
+        calculo.innerText = numero1;
+    } 
+    else {
+        numero2 = numero2 + n2.textContent;
+        calculo.innerText = numero1 + " " + operacao + " " + numero2;
+    }
+});
+
+n3.addEventListener('click', function() {
+    if (operacao == null) {
+        numero1 = numero1 + n3.textContent;
+        calculo.innerText = numero1;
+    } 
+    else {
+        numero2 = numero2 + n3.textContent;
+        calculo.innerText = numero1 + " " + operacao + " " + numero2;
+    }
+});
+
+n4.addEventListener('click', function() {
+    if (operacao == null) {
+        numero1 = numero1 + n4.textContent;
+        calculo.innerText = numero1;
+    } 
+    else {
+        numero2 = numero2 + n4.textContent;
+        calculo.innerText = numero1 + " " + operacao + " " + numero2;
+    }
+});
+
+n5.addEventListener('click', function() {
+    if (operacao == null) {
+        numero1 = numero1 + n5.textContent;
+        calculo.innerText = numero1;
+    } 
+    else {
+        numero2 = numero2 + n5.textContent;
+        calculo.innerText = numero1 + " " + operacao + " " + numero2;
+    }
+});
+
+n6.addEventListener('click', function() {
+    if (operacao == null) {
+        numero1 = numero1 + n6.textContent;
+        calculo.innerText = numero1;
+    } 
+    else {
+        numero2 = numero2 + n6.textContent;
+        calculo.innerText = numero1 + " " + operacao + " " + numero2;
+    }
+});
+
+n7.addEventListener('click', function() {
+    if (operacao == null) {
+        numero1 = numero1 + n7.textContent;
+        calculo.innerText = numero1;
+    } 
+    else {
+        numero2 = numero2 + n7.textContent;
+        calculo.innerText = numero1 + " " + operacao + " " + numero2;
+    }
+});
+
+n8.addEventListener('click', function() {
+    if (operacao == null) {
+        numero1 = numero1 + n8.textContent;
+        calculo.innerText = numero1;
+    } 
+    else {
+        numero2 = numero2 + n8.textContent;
+        calculo.innerText = numero1 + " " + operacao + " " + numero2;
+    }
+});
+
+n9.addEventListener('click', function() {
+    if (operacao == null) {
+        numero1 = numero1 + n9.textContent;
+        calculo.innerText = numero1;
+    } 
+    else {
+        numero2 = numero2 + n9.textContent;
+        calculo.innerText = numero1 + " " + operacao + " " + numero2;
+    }
+});
+
+ponto.addEventListener('click', function() {
+    if (operacao == null) {
+        numero1 = numero1 + ponto.textContent;
+        calculo.innerText = numero1;
+    } 
+    else {
+        numero2 = numero2 + ponto.textContent;
+        calculo.innerText = numero1 + " " + operacao + " " + numero2;
     }
 });
 
