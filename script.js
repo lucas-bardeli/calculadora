@@ -24,7 +24,7 @@ var numero2 = '';
 var operacao = null;
 
 //------------------------------------------------------------------------------------------
-// Números e a vírgula
+// Números e o ponto
 
 n0.addEventListener('click', function() {
     if (operacao == null) {
@@ -194,4 +194,15 @@ igual.addEventListener('click', function() {
     else {
         resultado.innerText = "** ERRO **";
     }
+});
+
+//------------------------------------------------------------------------------------------
+// Botão Limpar
+
+limpar.addEventListener('click', function() {
+    numero1 = "";
+    numero2 = "";
+    operacao = null;
+    calculo.innerText = "";
+    resultado.innerText = "";
 });

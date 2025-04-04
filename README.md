@@ -6,5 +6,3 @@ Para poder testar baixe os arquivos, ou clone o repositório:
 ```
 
 Depois abra o aquivo **index.html** e faça seus cálculos!
-
-Ainda estão faltando algumas funcionalidades...

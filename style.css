@@ -1,9 +1,6 @@
 
-table, 
-tbody, 
-tr, 
-td {
-    border-collapse: collapse;
+h1 {
+    color: var(--h1-color);
 }
 
 .area {
@@ -23,6 +20,7 @@ td {
     font-size: 30px;
     font-weight: 900;
     border: none;
+    border-radius: 3px;
 }
 
 .btn:hover {
@@ -39,6 +37,7 @@ td {
     border-top: 1px solid var(--calculo-border);
     border-right: 1px solid var(--calculo-border);
     border-left: 1px solid var(--calculo-border);
+    border-radius: 3px;
 }
 
 .resultado {
@@ -51,6 +50,7 @@ td {
     border-bottom: 1px solid var(--resultado-border);
     border-right: 1px solid var(--resultado-border);
     border-left: 1px solid var(--resultado-border);
+    border-radius: 3px;
 }
 
 .limpar {

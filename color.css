@@ -1,13 +1,16 @@
 
 :root {
+    --body-color: #1e1e1e;
+    --h1-color: aliceblue;
+
     --calculo-bg: #c1cec0;
     --calculo-border: #ccc;
 
     --resultado-bg: #f0f0f0;
     --resultado-border: #ccc;
 
-    --limpar-bg: #f8ad9f;
-    --limpar-color: crimson;
+    --limpar-bg: #ea97a8;
+    --limpar-color: #95122a;
 
     --igual-bg: #c0e997;
     --igual-color: #017501;
