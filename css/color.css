@@ -1,6 +1,6 @@
 
 :root {
-    --body-color: #1e1e1e;
+    --body-color: #1A2033;
     --h1-color: aliceblue;
 
     --calculo-bg: #c1cec0;
@@ -9,17 +9,17 @@
     --resultado-bg: #f0f0f0;
     --resultado-border: #ccc;
 
-    --limpar-bg: #ea97a8;
-    --limpar-color: #95122a;
+    --limpar-bg: #ecbdc6;
+    --limpar-color: #94031e;
 
     --igual-bg: #c0e997;
-    --igual-color: #017501;
+    --igual-color: #076207;
 
-    --num-bg: #b9cce9;
-    --num-color: blue;
+    --num-bg: #4CC2FE;
+    --num-color: #09212c;
     --num-border: #98b8e7;
 
     --operacao-bg: #4949eb;
-    --operacao-color: #b9cce9;
+    --operacao-color: #f0f0f0;
     --operacao-border: #1f1ff8;
 }

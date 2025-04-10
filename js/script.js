@@ -151,21 +151,25 @@ ponto.addEventListener('click', function() {
 // Operações
 
 divisao.addEventListener('click', function() {
+    
     operacao = divisao.textContent;
     calculo.innerText = numero1 + " " + operacao + " " + numero2;
 });
 
 multiplicacao.addEventListener('click', function() {
+
     operacao = multiplicacao.textContent;
     calculo.innerText = numero1 + " " + operacao + " " + numero2;
 });
 
 subtracao.addEventListener('click', function() {
+
     operacao = subtracao.textContent;
     calculo.innerText = numero1 + " " + operacao + " " + numero2;
 });
 
 adicao.addEventListener('click', function() {
+
     operacao = adicao.textContent;
     calculo.innerText = numero1 + " " + operacao + " " + numero2;
 });
@@ -190,6 +194,10 @@ igual.addEventListener('click', function() {
 
         resultado.innerText = parseFloat(numero1) + parseFloat(numero2);
 
+    } else if (operacao == null) {
+
+        resultado.innerText = numero1;
+
     }
     else {
         resultado.innerText = "** ERRO **";
@@ -200,6 +208,7 @@ igual.addEventListener('click', function() {
 // Botão Limpar
 
 limpar.addEventListener('click', function() {
+
     numero1 = "";
     numero2 = "";
     operacao = null;
