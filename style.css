@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	background: #202124;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+/* área da calculadora */
+
+.area {
+	width: 100%;
+	max-width: 360px;
+	padding: 10px;
+}
+
+/* tabela */
+
+table {
+	width: 100%;
+	border-spacing: 6px;
+}
+
+/* display */
+
+.calculo {
+	text-align: right;
+	padding: 8px;
+	font-size: 18px;
+	color: #9aa0a6;
+	background: #2b2c2f;
+	border-radius: 8px 8px 0 0;
+	font-family: monospace;
+}
+
+.resultado {
+	text-align: right;
+	padding: 14px;
+	font-size: 36px;
+	color: white;
+	background: #2b2c2f;
+	border-radius: 0 0 8px 8px;
+	font-family: monospace;
+}
+
+/* botões */
+
+.btn {
+	width: 100%;
+	height: 70px;
+	border: none;
+	border-radius: 10px;
+	font-size: 22px;
+	cursor: pointer;
+	transition: 0.15s;
+}
+
+/* números */
+
+.numeros {
+	background: #3c4043;
+	color: white;
+}
+
+.numeros:hover {
+	background: #4a4d51;
+}
+
+/* operações */
+
+.operacoes {
+	background: #5f6368;
+	color: white;
+}
+
+.operacoes:hover {
+	background: #6b6f75;
+}
+
+/* limpar */
+
+.limpar {
+	background: #b3261e;
+	color: white;
+}
+
+/* igual */
+
+.igual {
+	background: #1a73e8;
+	color: white;
+}
+
+/* responsivo */
+
+@media (max-width: 480px) {
+
+	.btn {
+		height: 80px;
+		font-size: 24px;
+	}
+
+	.resultado {
+		font-size: 42px;
+	}
+}

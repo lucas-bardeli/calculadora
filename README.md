@@ -1,9 +1,4 @@
+# 📱 Calculadora
+Uma calculadora funcional desenvolvida com JavaScript, CSS e HTML.
 
-## 📱 Como executar:
-* Você pode baixar os aquivos através do botão **Add file** acima dos arquivos do repositório e depois selecionar o **Upload files**.
-* Ou se preferir, no terminal do computador você pode clonar esse repositório digitando o comando:
-```bash
-  git clone https://github.com/lucas-bardeli/calculadora.git
-```
-
-Depois abra o aquivo **index.html** e faça seus cálculos! ✨
+🔗 Você pode visualizar o projeto através do seguinte link: [https://lucas-bardeli.github.io/calculadora/](https://lucas-bardeli.github.io/calculadora/)
